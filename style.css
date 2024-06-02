@@ -1,0 +1,31 @@
+.parent {
+  position: relative;
+}
+.triangel {
+  border: solid 100px;
+  border-color: transparent transparent transparent red;
+  position: relative;
+  left: 0px;
+  z-index: 999;
+}
+.green {
+  background-color: green;
+  width: 400px;
+  height: 66.66666666666667px;
+  position: absolute;
+  top: 0px;
+}
+.white {
+  background-color: white;
+  width: 400px;
+  height: 66.66666666666667px;
+  position: absolute;
+  top: 66.66666666666667px;
+}
+.black {
+  background-color: black;
+  width: 400px;
+  height: 66.66666666666667px;
+  position: absolute;
+  top: 133.3333333333333px;
+}
